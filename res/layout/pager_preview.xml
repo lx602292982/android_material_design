@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lixiang.weather"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <com.lixiang.weather.support.view.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        app:matProg_barColor="@color/blue"
+        app:matProg_barWidth="2dp"
+        app:matProg_progressIndeterminate="true" />
+
+    <com.lixiang.weather.support.view.preview.SubsamplingScaleImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+</FrameLayout>

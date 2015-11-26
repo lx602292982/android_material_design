@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">逗逗预报</string>
+    <string name="home">首页</string>
+    <string name="info">资讯</string>
+    <string name="article">文章</string>
+    <string name="my">我的</string>
+    <string name="is_my">我</string>
+    <string name="setting">设置</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_msg">没有相关数据信息！</string>
+    <string name="error_msg">加载数据失败，点击重试</string>
+    <string name="loading_msg">努力加载中...</string>
+    <string name="cropper_image">剪切图片</string>
+    <string name="done">完成</string>
+    <string name="rotation_img">旋转图片</string>
+    <string name="select_image">选择图片</string>
+    <string name="please_select_img">请至少选择一张图片！</string>
+    <string name="folder_all">所有图片</string>
+    <string name="msg_no_camera">设备不支持照相机哦~</string>
+    <string name="msg_amount_limit">选择图片的数量已经达到上限了~</string>
+    <string name="preview">预览</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete">确认要删除吗？</string>
+    <string name="delete_success">删除成功！</string>
+    <string name="delete_fail">删除失败！</string>
+    <string name="but_try_again">再试一次</string>
+
+</resources>

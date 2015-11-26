@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/cn.jvche.qcb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+   <!--  <cn.jvche.qcb.support.view.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:matProg_barWidth="2dp"
+        app:matProg_barColor="@color/blue"
+        app:matProg_progressIndeterminate="true" /> -->
+    <FrameLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_loading_ball"/>
+        <ImageView 
+            android:id="@+id/loading_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_loading_car"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/lab_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="false"
+        android:text="@string/loading_msg"
+        android:textSize="16sp" />
+
+</LinearLayout>
